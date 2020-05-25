@@ -1,0 +1,22 @@
+.contactlist {
+    list-style: none;
+    text-align: center;
+    padding: 3em;
+}
+
+span {
+    font-family: 'Atomic Age', cursive;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+footer {
+    padding-top: 1em;
+}
+
+@media screen {
+    header {
+        display: none;
+    }
+    
+}

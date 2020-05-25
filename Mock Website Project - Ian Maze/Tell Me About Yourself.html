@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Atomic+Age&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/tmay.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/Main.css">
+    <meta charset="UTF-8">
+    <title>Ian Maze | Home Page</title>
+</head>
+<body>
+    <header>
+       <h1>Tell Me About Yourself!</h1>
+    </header>
+    <aside>
+        <h1>Menu</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a  href="Skills.html">Skills</a></li>
+            <li><a class="current" href="Tell%20Me%20About%20Yourself.html">Tell Me About Yourself</a></li>
+            <li><a href="Contact%20Me.html">Contact Me</a></li>
+        </ul>
+    </aside>
+    <section>
+        <form>
+           <fieldset>
+           <legend>Tell Me Bout Yourself!</legend>
+            <h3>Give a short bio about yourself!</h3>
+            <input id="textbox" type="text">
+            <p>I have to put more form items as a requirment for this assignment, so fill out some more stuff!</p>
+            <p class="q">Are you a robot?</p>
+            <input class="check" required type="radio" name="robot">Yes
+            <input class="check" type="radio" name="robot">No
+            <input class="check" type="radio" name="robot">Maybe
+            <p class="q">Do you have any hobbies?</p>
+            <input class="hobbies" type="checkbox" name="hobbies">Sports
+            <input class="hobbies" type="checkbox" name="hobbies">Gaming
+            <input class="hobbies" type="checkbox" name="hobbies">Animals
+            <input class="hobbies" type="checkbox" name="hobbies">Outdoor
+            <input class="hobbies" type="checkbox" name="hobbies">Exercise
+            <input class="hobbies" type="checkbox" name="hobbies">Books
+            <input class="hobbies" type="checkbox" name="hobbies">Music
+            <input class="hobbies" type="checkbox" name="hobbies">Other
+            <div class="dropdown">
+            <p id="pick">Pick One!</p>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            </div>
+            <p id="colortitle">If you had to choose a color...</p>
+            <ul id="color">
+                <li><input class="color" type="color" name="color" value="red"></li>
+                <li><input class="color" type="color" name="color"
+                value="blue"></li>
+            </ul><br>
+            <div class="button">
+            <button>Submit</button>
+            </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>Web Development by Ian Maze</p>
+    </footer>
+</body>
+</html>
